@@ -1,0 +1,10 @@
+.navbar__card{
+    align-self: center;
+    color: #3f4261;
+    margin-right: 25px;
+}
+
+
+.navbar__card:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.carousel {
+    position: relative;
+    width: 95%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+
+}
+
+.slick-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+

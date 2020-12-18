@@ -1,0 +1,10 @@
+.home-page{
+    position: relative;
+    max-width: 1440px;
+    min-height: 100vh;
+    background-color: #eaebdd  ;
+    height: 100%;
+    width: 100vw;
+    margin: auto;
+
+}

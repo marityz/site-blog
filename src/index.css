@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'MyFont';
+  src:local('MyFont'), url(./fonts/19440.ttf)  format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Weblysleek';
+  src: url(./fonts/weblysleek.ttf) format('truetype');
+
+}
+
+
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'MyFont', 'Weblysleek','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.root{
+  margin: auto;
+  max-width: 1440px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','MyFont', 'Weblysleek',
+    monospace;
+}
+
+

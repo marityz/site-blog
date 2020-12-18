@@ -1,0 +1,15 @@
+@import url('./__link/navbar__link.css');
+@import url('./__link/_active/navbar__link_active.css');
+@import url('./__login/navbar__login.css');
+@import url('./__card/navbar__card.css');
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 150px;
+    position: relative;
+    height: 100%;
+}

@@ -1,0 +1,9 @@
+.navbar__login{
+    align-self: center;
+    color: #3f4261;
+    margin-right: 25px;
+}
+
+.navbar__login:hover{
+    cursor: pointer;
+}
