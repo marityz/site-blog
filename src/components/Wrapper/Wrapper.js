@@ -15,18 +15,51 @@ const Wrapper = (props) => {
         slidesToShow: 4,
         slidesToScroll: 1,
         className: 'carousel',
-        autoplay: true,
+        // autoplay: true,
         speed: 4000,
         autoplaySpeed: 2000,
         cssEase: "linear",
         initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true,
+                    autoplaySpeed: 6000,
+                    speed: 6000,
+                    cssEase: "ease"
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2,
+                    speed: 6000,
+                    autoplaySpeed: 6000,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows:false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: false,
+                }
+            }
+        ]
     };
 
     return (
-        <>
+        <div className='block-carousel'>
             <p className="title"> work of artist Tuzikova Irina</p>
             <Slider {...settings}>
-                <div className='item'>
+                <div className='item slide1' >
 
                     <img src={img1} className='imgItem'/>
 
@@ -69,7 +102,7 @@ const Wrapper = (props) => {
 
                 </div>
             </Slider>
-        </>
+        </div>
     )
 
 

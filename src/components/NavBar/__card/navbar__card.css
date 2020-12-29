@@ -8,3 +8,23 @@
 .navbar__card:hover{
     cursor: pointer;
 }
+
+
+@media (max-width: 600px) {
+    .fa-shopping-cart.navbar__card {
+       display: none;
+    }
+
+
+
+}
+
+
+@media (max-width: 1024px) {
+    .fa-shopping-cart.navbar__card {
+        display: none;
+    }
+
+
+
+}

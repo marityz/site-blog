@@ -12,7 +12,7 @@ function NavBar() {
             <NavLink to="/blog" className="navbar__link" activeClassName='navbar__link_active'>Blog</NavLink>
 
         </nav>
-            <div className='navbar'>
+            <div className='navbar-shop'>
              <i className = "fa  fa-2x fa-user-circle-o navbar__login"  aria-hidden="true"></i>
              <i className="fa fa-2x fa-shopping-cart navbar__card" aria-hidden="true"></i>
                 </div>

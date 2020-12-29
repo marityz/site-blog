@@ -2,6 +2,7 @@
 @import url('./__link/_active/navbar__link_active.css');
 @import url('./__login/navbar__login.css');
 @import url('./__card/navbar__card.css');
+@import url('./navbar-shop/navbar-shop.css');
 
 
 
@@ -10,6 +11,16 @@
     flex-direction: row;
     text-align: center;
     padding-left: 150px;
+    padding-right: 0px;
     position: relative;
     height: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
 }

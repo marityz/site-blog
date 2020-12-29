@@ -1,0 +1,27 @@
+.about-content{
+    width: 50%;
+    padding: 20px;
+    font-family: MyFont, Arial, sans-serif;
+    font-size: 20px;
+    color: #3f4261;
+
+}
+
+
+@media (max-width: 600px) {
+    .about-content {
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+        order: 2;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .about-content  {
+        padding: 0;
+    }
+
+}

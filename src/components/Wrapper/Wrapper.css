@@ -13,7 +13,21 @@
     margin-bottom: -190px;
     padding-top: 120px;
     color: #3f4261;
+
 }
 
 
+
+
+@media (max-width: 1024px) {
+    .title{
+        margin-right: 40px;
+    }
+
+}
+
+
+.slick-arrow{
+    top: 400px;
+}
 
