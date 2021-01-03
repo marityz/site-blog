@@ -1,0 +1,11 @@
+.items{
+    border: #f72940 solid 2px;
+    min-height: 600px;
+    padding: 150px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+}
+
+
+

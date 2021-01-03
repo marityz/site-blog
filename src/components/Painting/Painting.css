@@ -1,0 +1,17 @@
+@import url('./__img/painting__img.css');
+@import url('__name/painting__name.css');
+@import url('./__price/painting__price.css');
+@import url('./__button/painting__button.css');
+
+
+
+.painting{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: #3f4261 solid 2px;
+    min-height: 400px;
+    background-color: #cccfd9 ;
+    padding: 10px;
+}
