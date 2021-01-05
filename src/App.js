@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+
 import {
     Route,
     Redirect,
@@ -11,10 +12,18 @@ import {
 import Home from "../src/pages/Home/Home"
 import Shop from '../src/pages/Shop/Shop'
 
+import { i18n } from '@lingui/core'
+import { I18nProvider } from '@lingui/react'
+import { messages } from './locales/ru/messages.js'
+
+i18n.load('ru', messages);
+i18n.activate('en');
+
 
 function App(props) {
     const {history} = props;
     return (
+        <I18nProvider i18n={i18n}>
         <BrowserRouter>
             <Switch>
                 <Route history={history} path='/home' component={Home}/>
@@ -22,6 +31,7 @@ function App(props) {
                 <Redirect from='/' to='/home'/>
             </Switch>
         </BrowserRouter>
+        </I18nProvider>
     );
 }
 

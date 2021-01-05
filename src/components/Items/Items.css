@@ -1,11 +1,26 @@
 .items{
     border: #f72940 solid 2px;
     min-height: 600px;
-    padding: 150px 20px;
+    padding: 150px 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 50px;
 }
 
 
+@media (max-width: 600px){
+    .items{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 150px 20px;
+    }
+}
 
+
+@media (max-width: 1024px){
+    .items{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        padding: 150px 30px;
+    }
+}

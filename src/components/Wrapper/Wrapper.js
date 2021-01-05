@@ -1,6 +1,8 @@
 import React from 'react';
 import './Wrapper.css';
 import Slider from "react-slick";
+import {Trans} from '@lingui/macro';
+
 
 import img1 from '../../images/img1.png'
 import img2 from '../../images/img2.png'
@@ -57,7 +59,7 @@ const Wrapper = (props) => {
 
     return (
         <div className='block-carousel'>
-            <p className="title"> work of artist Tuzikova Irina</p>
+            <p className="title"><Trans> work of artist Tuzikova Irina</Trans></p>
             <Slider {...settings}>
                 <div className='item slide1' >
 

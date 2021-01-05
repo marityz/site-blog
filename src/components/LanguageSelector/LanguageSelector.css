@@ -1,0 +1,19 @@
+.select {
+    border-radius: 4px;
+    margin: 10px;
+    height: max-content;
+    background-color: #cccfd9;
+    color: #3f4261;
+
+}
+
+
+.select:hover,
+.select:focus{
+    outline: none;
+}
+
+
+.select__language {
+    background-color: #cccccc;
+}
