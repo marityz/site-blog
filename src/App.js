@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 
 
 import {
@@ -12,25 +12,39 @@ import {
 import Home from "../src/pages/Home/Home"
 import Shop from '../src/pages/Shop/Shop'
 
-import { i18n } from '@lingui/core'
-import { I18nProvider } from '@lingui/react'
-import { messages } from './locales/ru/messages.js'
+import { i18n } from '@lingui/core';
+import { I18nProvider } from '@lingui/react';
+import { messages } from './locales/ru/messages.js';
+import { messagesEn } from './locales/en/messages.js';
 
+import ContextLanguage from "./context/contextLanguage";
+
+i18n.load('en', messagesEn);
 i18n.load('ru', messages);
 i18n.activate('en');
 
 
+
 function App(props) {
+
+    const [language,  setLanguage] = useState('en');
+
     const {history} = props;
     return (
         <I18nProvider i18n={i18n}>
-        <BrowserRouter>
+            <ContextLanguage.Provider  value = {{language: language, toggleLanguage:(activeLang)=>{
+                    setLanguage(activeLang);
+                    i18n.activate(activeLang);
+                }}}>
+            <BrowserRouter>
             <Switch>
                 <Route history={history} path='/home' component={Home}/>
                 <Route history={history} path='/shop' component={Shop}/>
                 <Redirect from='/' to='/home'/>
             </Switch>
         </BrowserRouter>
+            </ContextLanguage.Provider>
+
         </I18nProvider>
     );
 }

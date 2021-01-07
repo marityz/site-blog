@@ -1,27 +1,30 @@
 import React from 'react';
-import './LanguageSelector.css'
+import './LanguageSelector.css';
+import ContextLanguage from "../../context/contextLanguage";
 
-import { i18n } from '@lingui/core'
-import { I18nProvider } from '@lingui/react'
-import { messages } from '../../locales/ru/messages.js'
+import {i18n} from '@lingui/core'
+import {I18nProvider} from '@lingui/react'
 
-i18n.load('ru', messages);
 
 function LanguageSelector() {
 
-    function handleChange(event) {
-        event.preventDefault();
-        i18n.activate(event.target.value);
-    }
+
 
     return (
         <I18nProvider i18n={i18n}>
-        <div >
-            <select onChange={handleChange}  className="select">
-                <option value="en" className="select__language">English</option>
-                <option value="ru" className="select__language">Russia</option>
-            </select>
-        </div>
+            <div className="select">
+                <ContextLanguage.Consumer>
+                    {({language, toggleLanguage}) => (
+                        <select onChange={(event)=>{
+                            toggleLanguage(event.target.value)}
+                          } value={language}>
+                            <option value="en">En</option>
+                            <option value="ru">Ru</option>
+                        </select>
+                    )}
+
+                </ContextLanguage.Consumer>
+            </div>
         </I18nProvider>
     );
 }
