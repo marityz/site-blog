@@ -1,0 +1,8 @@
+@import url('./__title/modal-card__title.css');
+
+.modal-card{
+    overflow-y: auto;
+    height: max-content;
+    position: relative;
+
+}

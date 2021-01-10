@@ -1,0 +1,32 @@
+@import url('./__button_valid/form-card__button_valid.css');
+
+
+.form-card__button{
+    width: 50%;
+    height: 64px;
+    margin: 24px auto;
+    color: rgba(0, 0, 0, .2);
+    font-family: Roboto, Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #E6E8EB;
+    border-radius: 100px;
+    border: none;
+}
+
+.form-card__button:focus,
+.form-card__button:active{
+    border: none;
+    outline: none;
+}
+
+
+@media (max-width: 600px) {
+    .form-card__button{
+        width: 80%;
+    }
+}

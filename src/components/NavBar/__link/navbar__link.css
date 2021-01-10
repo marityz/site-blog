@@ -7,7 +7,7 @@
     font-family: MyFont, Arial, sans-serif;
     font-size: 1.5em;
     color: #3f4261;
-    height: 80%;
+    height: max-content;
     align-items: center;
 }
 

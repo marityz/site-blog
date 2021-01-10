@@ -1,19 +1,38 @@
 .select {
-    border-radius: 4px;
+    border-radius: 14px;
     margin: 10px;
     height: max-content;
-    background-color: #cccfd9;
     color: #3f4261;
-
+    appearance: none;
+    align-self: center;
+    background-color: #cccfd9;
 }
 
 
 .select:hover,
-.select:focus{
+.select:focus,
+.select__language:hover,
+.select__language:focus{
     outline: none;
 }
 
 
 .select__language {
-    background-color: #cccccc;
+    border-radius: 100px;
+    appearance: none;
+    padding:2px;
+    width: max-content;
+    font-size: 1.2em;
+    color: #3f4261;
+    border: #3f4261 solid 2px;
+    background-color: #eaebdd ;
+
+}
+
+
+@media (max-width: 600px) {
+    .select__language {
+        font-size: 0.8em;
+    }
+
 }

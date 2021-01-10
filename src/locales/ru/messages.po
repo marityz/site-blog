@@ -15,11 +15,15 @@ msgstr ""
 
 #: src/components/About/About.js:13
 msgid "A diverse and rich experience consultation with a wide asset provides a wide range. Everyday practice shows that the implementation of planned tasks largely determines the creation of a development model. Comrades! the existing structure The organization is an interesting experiment of checking the directions of progressive development. The significance of these problems is so obvious that the further development of various forms of activity provides a wide range of (specialists) participation in the formation of new proposals. It should not be forgotten, however, that the further development of various forms of activity contributes to the preparation and implementation of forms of development."
-msgstr "Разнообразный и богатый опыт консультаций с широким активом обеспечиваетширокий спектр услуг. Повседневная практика показывает, что выполнение запланированных задачво многом определяет создание модели развития. Товарищи! существующая структураОрганизация представляет собой интересный эксперимент по проверке направлений прогрессивногоразвития.Значимость этих проблем настолько очевидна, что дальнейшее развитие различных формдеятельностипредусматривает широкое участие широкого круга (специалистов) в формировании новых предложений. Неследует, однако, забывать, что дальнейшее развитие различных форм деятельности способствуетподготовке и"
+msgstr "Разнообразный и богатый опыт консультаций с широким активом обеспечиваетширокий спектр услуг. Повседневная практика показывает, что выполнение запланированных задачво многом определяет создание модели развития. Товарищи! существующая структура Организация представляет собой интересный эксперимент по проверке направлений прогрессивногоразвития. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм  деятельности предусматривает широкое участие широкого круга (специалистов) в формировании новых предложений. Неследует, однако, забывать, что дальнейшее развитие различных форм деятельности способствуетподготовке и"
+
+#: src/components/Painting/Painting.js:13
+msgid "Add to card"
+msgstr "Добавить в корзину"
 
 #: src/components/NavBar/NavBar.js:14
-msgid "Blog"
-msgstr "Блог"
+#~ msgid "Blog"
+#~ msgstr "Блог"
 
 #: src/components/NavBar/NavBar.js:12
 msgid "Home"

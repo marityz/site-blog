@@ -21,13 +21,13 @@ import ContextLanguage from "./context/contextLanguage";
 
 i18n.load('en', messagesEn);
 i18n.load('ru', messages);
-i18n.activate('en');
+i18n.activate(' ');
 
 
 
 function App(props) {
 
-    const [language,  setLanguage] = useState('en');
+    const [language,  setLanguage] = useState(' ');
 
     const {history} = props;
     return (

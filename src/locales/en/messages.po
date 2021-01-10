@@ -17,9 +17,13 @@ msgstr ""
 msgid "A diverse and rich experience consultation with a wide asset provides a wide range. Everyday practice shows that the implementation of planned tasks largely determines the creation of a development model. Comrades! the existing structure The organization is an interesting experiment of checking the directions of progressive development. The significance of these problems is so obvious that the further development of various forms of activity provides a wide range of (specialists) participation in the formation of new proposals. It should not be forgotten, however, that the further development of various forms of activity contributes to the preparation and implementation of forms of development."
 msgstr "A diverse and rich experience consultation with a wide asset provides a wide range. Everyday practice shows that the implementation of planned tasks largely determines the creation of a development model. Comrades! the existing structure The organization is an interesting experiment of checking the directions of progressive development. The significance of these problems is so obvious that the further development of various forms of activity provides a wide range of (specialists) participation in the formation of new proposals. It should not be forgotten, however, that the further development of various forms of activity contributes to the preparation and implementation of forms of development."
 
+#: src/components/Painting/Painting.js:13
+msgid "Add to card"
+msgstr "Add to card"
+
 #: src/components/NavBar/NavBar.js:14
-msgid "Blog"
-msgstr "Blog"
+#~ msgid "Blog"
+#~ msgstr "Blog"
 
 #: src/components/NavBar/NavBar.js:12
 msgid "Home"

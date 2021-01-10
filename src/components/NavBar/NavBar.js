@@ -11,15 +11,15 @@ function NavBar() {
         <nav className='navbar'>
             <NavLink exact to="/home" className="navbar__link" activeClassName='navbar__link_active'><Trans>Home</Trans></NavLink>
             <NavLink to="/shop" className="navbar__link" activeClassName='navbar__link_active'><Trans>Shop</Trans></NavLink>
-            <NavLink to="/blog" className="navbar__link" activeClassName='navbar__link_active'><Trans>Blog</Trans></NavLink>
+            {/*<NavLink to="/blog" className="navbar__link" activeClassName='navbar__link_active'><Trans>Blog</Trans></NavLink>*/}
 
         </nav>
             <div className='navbar-shop'>
              <i className = "fa  fa-2x fa-user-circle-o navbar__login"  aria-hidden="true"></i>
              <i className="fa fa-2x fa-shopping-cart navbar__card" aria-hidden="true"></i>
-
+                <LanguageSelector/>
             </div>
-            <LanguageSelector/>
+
 </>
 
     )

@@ -1,0 +1,19 @@
+@import url('./__input-description/form-card__input-description.css');
+@import url('./__input/form-card__input.css');
+@import url('./text-error/text-error.css');
+@import url('./__button/form-card__button.css');
+@import url('./__button-align/form-card__button-align.css');
+
+
+.form-card{
+    border: #f72940 solid 1px;
+
+}
+
+
+
+@media (max-width: 600px) {
+ .form-card{
+     width: 98%;
+ }
+}

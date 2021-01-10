@@ -1,0 +1,31 @@
+.form-card__input{
+    width: 100%;
+    height: 40px;
+    line-height: 17px;
+    box-sizing: border-box;
+    padding: 5px 6px 10px 3px;
+    margin-bottom: 0;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    border: #3f4261 solid 1px;
+    border-radius: 5px;
+
+}
+
+
+.form-card__input:focus{
+    box-shadow: inset 0 2px 2px #ccc;
+}
+
+.form-card__input:first-of-type {
+    margin-bottom:0px;
+
+}
+
+.form-card__input_type_comment{
+height: 102px;
+}
