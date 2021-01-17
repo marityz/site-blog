@@ -4,16 +4,22 @@ import Header from "../../components/Header/Header";
 import Items from "../../components/Items/Items";
 import paintings from "../../const/paintings"
 import Footer from "../../components/Footer/Footer";
-import Modal from "../../components/Modal/Modal";
 
 function Shop() {
 
+    const [removePaintingCard, setRemovePaintingCard] = React.useState(false);
+
+    const checkDeletePaintingInCard = (status) => {
+        setRemovePaintingCard(status);
+    };
+
+    console.log(checkDeletePaintingInCard );
+
     return(
         < div className='home-page'>
-            <Header/>
-            <Items paintings = {paintings}/>
+            <Header statusPaintingInCard = {checkDeletePaintingInCard}/>
+            <Items paintings = {paintings} />
             <Footer/>
-            <Modal/>
         </div>
     )
 

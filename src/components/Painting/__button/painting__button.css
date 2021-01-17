@@ -1,13 +1,20 @@
 .painting__button {
     width: 50%;
-    margin: auto;
+    margin: 10px auto;
     font-family: MyFont, Arial, sans-serif;
     font-size: 18px;
     border-radius: 5px;
-    background-color:#eaebdd ;
+    background-color: #3f4261 ;
+    color: #FFFFFF;
+    border: none;
 
 }
 
+.incard{
+    background-color: #cccfd9;
+    color: white;
+    border: none;
+}
 
 .painting__button:focus {
     outline: none;

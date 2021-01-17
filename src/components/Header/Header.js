@@ -3,11 +3,12 @@ import "./Header.css"
 import NavBar from "../NavBar/NavBar";
 
 
-function Header() {
+function Header(props) {
+
     return (
         <>
             <header className='header'>
-                <NavBar/>
+                <NavBar statusPaintingInCard={props.statusPaintingInCard} />
             </header>
         </>
 

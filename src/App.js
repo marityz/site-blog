@@ -28,7 +28,9 @@ i18n.activate(' ');
 function App(props) {
 
     const [language,  setLanguage] = useState(' ');
-
+    const [cart, setCart] = useState()
+    const updateCart = () => {};
+    const removeFromCart = () => {};
     const {history} = props;
     return (
         <I18nProvider i18n={i18n}>
@@ -38,7 +40,7 @@ function App(props) {
                 }}}>
             <BrowserRouter>
             <Switch>
-                <Route history={history} path='/home' component={Home}/>
+                <Route history={history} path='/home' component={Home }/>
                 <Route history={history} path='/shop' component={Shop}/>
                 <Redirect from='/' to='/home'/>
             </Switch>

@@ -16,6 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-slick": "^0.27.13",
+    "store": "^2.0.12",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

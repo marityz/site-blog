@@ -1,0 +1,15 @@
+@import url('./__img/card-item__img.css');
+@import url('./__description/card-item__description.css');
+@import url('./__text/card-item__text.css');
+@import url('./__price/card-item__price.css');
+@import url('./__name/card-item__name.css');
+@import url('./__delete/card-item__delete.css');
+
+
+
+.card-item{
+    position: relative;
+    height: 150px;
+    margin-bottom: 10px;
+    display: flex;
+}

@@ -12,9 +12,11 @@
     flex-direction: column;
     justify-content: center;
     min-height: 300px;
+    height: max-content;
     background-color: #cccfd9;
     padding: 10px;
     border-radius: 16px;
+    border: #FFFFFF 5px solid;
 }
 .describe{
     font-family: MyFont, Arial,sans-serif;

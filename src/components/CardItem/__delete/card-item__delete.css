@@ -1,0 +1,13 @@
+.card-item__delete{
+    width: 22px;
+    height: 22px;
+    border: #3f4261 solid 1px;
+    border-radius: 100%;
+    align-self: center;
+
+}
+
+.card-item__delete:focus,
+.card-item__delete:hover{
+    cursor: pointer;
+}

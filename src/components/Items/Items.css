@@ -2,8 +2,8 @@
     min-height: 600px;
     padding: 150px 50px;
     display: grid;
+    height: max-content;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(150px, 400fr));
     gap: 50px;
 }
 

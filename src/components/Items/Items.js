@@ -8,8 +8,8 @@ function Items(props) {
 
     return (
         <section className='items'>
-            {props.paintings.map((painting, index) => {
-                return <Painting painting={painting} key={index}/>
+            {props.paintings.map((painting) => {
+                return <Painting painting={painting} key={painting.id}/>
             })}
 
         </section>
