@@ -4,47 +4,50 @@ import {Trans} from '@lingui/macro';
 
 
 function Painting(props) {
-    const [paintingAddCard, setPaintingAddCard] = useState(false);
-    //const [products, setProducts] = useState([ ]);
-
-    const checkIfAdd = product => {
-        for (let i = 0; i < localStorage.length; i++) {
-            let key = localStorage.key(i);
-            if (key.includes(`painting ${product.id}`)) {
-                return setPaintingAddCard(!paintingAddCard);
+    const checkPaintingInCart = () => {
+        let isPaintingToCart = false;
+        for (let key in props.cart) {
+            if (+key === props.painting.id) {
+                isPaintingToCart = true;
             }
 
         }
-    };
-
-    const handleAddProductToCart = product => {
-        localStorage.setItem(`painting ${product.id}`, JSON.stringify(product));
-        setPaintingAddCard(!paintingAddCard)
+        return isPaintingToCart;
 
     };
 
-    const handlerRemoveProductFromCart = product => {
-        localStorage.removeItem(`painting ${product.id}`);
-        setPaintingAddCard(!paintingAddCard)
+    const [isPaintingInCart, setButtonPaintingInCart] = useState(checkPaintingInCart);
 
+
+    const handlerDeleteInCart = () => {
+        setButtonPaintingInCart(!isPaintingInCart);
+        props.removeFromCart(props.painting);
+    };
+
+    const handlerAddToCart = () => {
+        setButtonPaintingInCart(!isPaintingInCart);
+        props.updateCart(props.painting);
     };
 
 
     return (
-
 
         <div className='painting'>
             <img className='painting__img' src={props.painting.src}/>
             <p className='painting__name'> {props.painting.name}</p>
             <p className='painting__description'>{props.painting.description}</p>
             <p className='painting__price'>{props.painting.price} $</p>
-            {paintingAddCard || checkIfAdd(props.painting)?
-                <button className={'painting__button incard'}
-                        onClick={() => handlerRemoveProductFromCart(props.painting)}><Trans>Remove from cart </Trans>
-                </button>
-                :
+            {checkPaintingInCart() ?
+                <button className={'painting__button incart'}
+                        onClick={() => {
+                            handlerDeleteInCart()
+                        }}><Trans>убрать из корзины</Trans>
+                </button> :
                 <button className={'painting__button'}
-                        onClick={() => handleAddProductToCart(props.painting)}><Trans> Add to cart </Trans></button>
+                        onClick={() => {
+                            handlerAddToCart()
+                        }}><Trans>Add to cart</Trans>
+                </button>
             }
         </div>
 

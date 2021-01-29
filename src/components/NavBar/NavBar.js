@@ -30,8 +30,8 @@ function NavBar(props) {
             <div className='navbar-shop'>
                 <i className="fa  fa-2x fa-user-circle-o navbar__login" aria-hidden="true"></i>
                 <i className="fa fa-2x fa-shopping-cart navbar__card" aria-hidden="true" onClick={openModalWin}><span
-                    className='navbar__card-number'> 24 </span></i>
-                {openModal ? <Modal close={toggleModal} statusPaintingInCard={props.statusPaintingInCard}/> : " "
+                    className='navbar__card-number'> {Object.keys(props.cart).length} </span></i>
+                {openModal ? <Modal close={toggleModal}  cart = {props.cart} removeFromCart={props.removeFromCart}/> : " "
                 }
                 <LanguageSelector/>
             </div>

@@ -9,12 +9,10 @@ import NavBar from "../NavBar/NavBar";
 function CardItem(props) {
     const [item, setItem] = React.useState(true);
 
-    const deleteItem = () => {
-        localStorage.removeItem(`painting ${props.painting.id}`);
-        setItem(false);
-        props.statusPaintingInCard(true);
-
+    const handlerDeleteItemInCart = () => {
+        props.removeFromCart(props.painting);
     };
+
 
     return(
         <>
@@ -27,7 +25,9 @@ function CardItem(props) {
                         <p className='card-item__text'>{props.painting.description}</p>
                         <p className='card-item__price'>{props.painting.price}</p>
                     </div>
-                    <img className='card-item__delete' src={deleteImg} onClick={deleteItem}/>
+                    <img className='card-item__delete' src={deleteImg} onClick={()=>{
+                        handlerDeleteItemInCart();
+                    }}/>
                 </div> : ' '
 
         }

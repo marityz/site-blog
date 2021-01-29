@@ -13,12 +13,13 @@
 
 .navbar__card-number{
     margin-left: -10px;
-    padding: 2px 6px 2px  0;
+    padding: 2px 3px 2px  0;
     border:  #3f4261 solid 1px;
     border-radius: 150px;
-    font-size: 23px;
+    font-size: 12px;
+    font-weight: bold;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #cccccc;
     color: #3f4261;
 
 }

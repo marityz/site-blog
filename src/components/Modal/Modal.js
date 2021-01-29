@@ -56,7 +56,7 @@ function Modal(props) {
                     <div className='modal__content modal__content_margin' ref={myRef}>
                         <img src={imgClose} alt="кнопка закрытия"
                              className="modal__close" onClick={handlerClick}/>
-                        <ModalCard statusPaintingInCard={props.statusPaintingInCard} />
+                        <ModalCard   cart = {props.cart}  removeFromCart={props.removeFromCart}/>
                     </div>
                 </div>
             </>

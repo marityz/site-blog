@@ -2,20 +2,29 @@ import React from 'react';
 import './ContentCard.css'
 import PropTypes from 'prop-types';
 import CardItem from "../CardItem/CardItem";
-import NavBar from "../NavBar/NavBar";
 
 
 function ContentCard(props) {
+
+    const getCartItems = (itemsInCart) => {
+        console.log(itemsInCart);
+        const arrayCartItems = [];
+        for (let key in itemsInCart) {
+            arrayCartItems.push(itemsInCart[key]);
+        }
+
+        return arrayCartItems;
+    };
 
 
 
     return (
         <div className='content-card'>
-            {(props.paintingCard.length === 0)?
+            {Object.keys(props.cart).length === 0 ?
                 <div> Нет ничего в корзине</div> :
-                props.paintingCard.map((painting, index) => {
-                return <CardItem key={index} painting = {painting} statusPaintingInCard={props.statusPaintingInCard} />
-            })
+                getCartItems(props.cart).map((painting, index) => {
+                    return <CardItem painting={painting}  key = {index} removeFromCart={props.removeFromCart}/>
+                })
 
             }
         </div>

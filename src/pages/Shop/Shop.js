@@ -5,20 +5,14 @@ import Items from "../../components/Items/Items";
 import paintings from "../../const/paintings"
 import Footer from "../../components/Footer/Footer";
 
-function Shop() {
+function Shop(props) {
 
-    const [removePaintingCard, setRemovePaintingCard] = React.useState(false);
 
-    const checkDeletePaintingInCard = (status) => {
-        setRemovePaintingCard(status);
-    };
-
-    console.log(checkDeletePaintingInCard );
-
-    return(
+    return (
         < div className='home-page'>
-            <Header statusPaintingInCard = {checkDeletePaintingInCard}/>
-            <Items paintings = {paintings} />
+            <Header cart={props.cart} removeFromCart={props.removeFromCart}/>
+            <Items paintings={paintings} updateCart={props.updateCart} cart={props.cart}
+                   removeFromCart={props.removeFromCart}/>
             <Footer/>
         </div>
     )

@@ -8,7 +8,7 @@ function Header(props) {
     return (
         <>
             <header className='header'>
-                <NavBar statusPaintingInCard={props.statusPaintingInCard} />
+                <NavBar cart = {props.cart}  removeFromCart={props.removeFromCart}/>
             </header>
         </>
 
