@@ -41,7 +41,7 @@ function Painting(props) {
                 <button className={'painting__button incart'}
                         onClick={() => {
                             handlerDeleteInCart()
-                        }}><Trans>убрать из корзины</Trans>
+                        }}><Trans>Remove from cart</Trans>
                 </button> :
                 <button className={'painting__button'}
                         onClick={() => {

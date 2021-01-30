@@ -76,7 +76,7 @@ function App(props) {
                 <BrowserRouter>
                     <Switch>
                         <Route history={history} path='/home' render={(props) =>
-                            <Home  {...props} cart={cart}/>
+                            <Home  {...props} cart={cart} removeFromCart={removeFromCart}/>
                         }/>
                         <Route history={history} path='/shop' render={(props) =>
                             <Shop updateCart={updateCart} {...props} cart={cart} removeFromCart={removeFromCart}/>

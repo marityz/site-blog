@@ -12,8 +12,8 @@
 
 .incart{
     background-color: #cccfd9;
-    color: white;
-    border: none;
+    color: #3f4261;
+    border: #3f4261 solid 1px;
 }
 
 .painting__button:focus {

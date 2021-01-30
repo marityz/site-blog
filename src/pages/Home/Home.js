@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer";
 function Home(props) {
     return(
         < div  className='home-page'>
-        <Header cart = {props.cart}/>
+        <Header cart = {props.cart} removeFromCart={props.removeFromCart}/>
         <Wrapper/>
         <About/>
         <Footer/>
