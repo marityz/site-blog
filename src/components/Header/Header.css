@@ -1,0 +1,25 @@
+.header {
+    position: absolute;
+    height: 90px;
+    /*background-color: #dfe3e8 ;*/
+    background-image: url("../../images/Header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 60%;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        height: 60px;
+        background-position: left bottom;
+        width: 80%;
+    }
+
+}

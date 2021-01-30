@@ -1,0 +1,27 @@
+.navbar__login {
+    align-self: center;
+    color: #3f4261;
+    margin-right: 25px;
+}
+
+.navbar__login:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .fa-user-circle-o.navbar__login {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+    .fa-user-circle-o.navbar__login {
+        display: none;
+    }
+
+
+}

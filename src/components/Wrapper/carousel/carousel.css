@@ -1,0 +1,21 @@
+.carousel {
+    position: relative;
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.block-carousel{
+    padding-bottom: 50px;
+
+}
+
+.slick-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+

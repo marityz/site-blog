@@ -1,0 +1,33 @@
+@import url('./carousel/carousel.css');
+@import url('./carousel/__item/carousel__item.css');
+@import url('./carousel/__item-image/carousel__item-image.css');
+
+
+.title {
+    text-transform: uppercase;
+    font-family: MyFont, Arial, sans-serif;
+    font-size: 34px;
+    text-align: end;
+    margin-right: 140px;
+    margin-top: 0px;
+    margin-bottom: -190px;
+    padding-top: 120px;
+    color: #3f4261;
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .title{
+        margin-right: 40px;
+    }
+
+}
+
+
+.slick-arrow{
+    top: 400px;
+}
+

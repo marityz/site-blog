@@ -1,0 +1,34 @@
+@import url('./__img/painting__img.css');
+@import url('__name/painting__name.css');
+@import url('./__price/painting__price.css');
+@import url('./__button/painting__button.css');
+@import url('./__description/painting__description.css');
+
+
+
+.painting{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+    height: max-content;
+    background-color: #cccfd9;
+    padding: 10px;
+    border-radius: 16px;
+    border: #FFFFFF 5px solid;
+}
+.describe{
+    font-family: MyFont, Arial,sans-serif;
+    font-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+    .painting {
+     width: 95%;
+    }
+
+}
+
+

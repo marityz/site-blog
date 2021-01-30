@@ -1,0 +1,21 @@
+.painting__button {
+    width: 50%;
+    margin: 10px auto;
+    font-family: MyFont, Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #3f4261 ;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.incart{
+    background-color: #cccfd9;
+    color: #3f4261;
+    border: #3f4261 solid 1px;
+}
+
+.painting__button:focus {
+    outline: none;
+}

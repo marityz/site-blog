@@ -1,0 +1,21 @@
+.modal__content_margin {
+    padding: 34px 36px 28px 36px;
+    margin-bottom: 30px;
+}
+
+
+@media screen  and  (max-width: 1024px) {
+    .modal__content_margin {
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .modal__content_margin {
+        margin-top: 56px;
+        padding: 34px 10px 28px 10px;
+
+    }
+}

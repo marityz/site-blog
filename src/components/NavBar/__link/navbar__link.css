@@ -1,0 +1,22 @@
+
+.navbar__link {
+    display: flex;
+    text-decoration: none;
+    margin-right: 50px;
+    align-self: center;
+    font-family: MyFont, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #3f4261;
+    height: max-content;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+    .navbar__link {
+        width: 100%;
+        font-size: 1.1em;
+        margin-right: 10px;
+    }
+
+}

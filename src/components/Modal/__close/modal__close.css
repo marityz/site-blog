@@ -1,0 +1,15 @@
+.modal__close{
+    width: 40px;
+    position: fixed;
+    top: 46px;
+    right: 46px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px){
+    .modal__close{
+        display: none;
+    }
+}
+
