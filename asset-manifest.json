@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/site-blog/static/css/main.6b3b1409.chunk.css",
-    "main.js": "/site-blog/static/js/main.91a7e6c1.chunk.js",
-    "main.js.map": "/site-blog/static/js/main.91a7e6c1.chunk.js.map",
+    "main.css": "/site-blog/static/css/main.0b747f91.chunk.css",
+    "main.js": "/site-blog/static/js/main.b25c149d.chunk.js",
+    "main.js.map": "/site-blog/static/js/main.b25c149d.chunk.js.map",
     "runtime-main.js": "/site-blog/static/js/runtime-main.391f56d2.js",
     "runtime-main.js.map": "/site-blog/static/js/runtime-main.391f56d2.js.map",
     "static/js/2.a996eb6d.chunk.js": "/site-blog/static/js/2.a996eb6d.chunk.js",
     "static/js/2.a996eb6d.chunk.js.map": "/site-blog/static/js/2.a996eb6d.chunk.js.map",
     "index.html": "/site-blog/index.html",
-    "static/css/main.6b3b1409.chunk.css.map": "/site-blog/static/css/main.6b3b1409.chunk.css.map",
+    "static/css/main.0b747f91.chunk.css.map": "/site-blog/static/css/main.0b747f91.chunk.css.map",
     "static/js/2.a996eb6d.chunk.js.LICENSE.txt": "/site-blog/static/js/2.a996eb6d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/site-blog/static/media/weblysleek.4a10f0b5.ttf",
     "static/media/Header.css": "/site-blog/static/media/Header.fc721dab.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.391f56d2.js",
     "static/js/2.a996eb6d.chunk.js",
-    "static/css/main.6b3b1409.chunk.css",
-    "static/js/main.91a7e6c1.chunk.js"
+    "static/css/main.0b747f91.chunk.css",
+    "static/js/main.b25c149d.chunk.js"
   ]
 }
