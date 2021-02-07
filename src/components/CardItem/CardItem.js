@@ -33,6 +33,9 @@ function CardItem(props) {
 
 }
 
-CardItem.prototype = {};
+CardItem.prototype = {
+    painting: PropTypes.number,
+    removeFromCart: PropTypes.func,
+};
 
 export default CardItem

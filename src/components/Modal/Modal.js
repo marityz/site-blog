@@ -50,13 +50,12 @@ function Modal(props) {
     } else {
         return (
             <>
-
                 <div className="modal modal_is-opened">
 
                     <div className='modal__content modal__content_margin' ref={myRef}>
                         <img src={imgClose} alt="кнопка закрытия"
                              className="modal__close" onClick={handlerClick}/>
-                        <ModalCard   cart = {props.cart}  removeFromCart={props.removeFromCart}/>
+                        <ModalCard   cart = {props.cart}  removeFromCart={props.removeFromCart} api = {props.api}/>
                     </div>
                 </div>
             </>
@@ -66,6 +65,11 @@ function Modal(props) {
 }
 
 
-Modal.prototype = {};
+Modal.prototype = {
+    cart: PropTypes.object,
+    removeFromCart: PropTypes.func,
+    api: PropTypes.object,
+    close:PropTypes.func,
+};
 
 export default Modal;

@@ -1,7 +1,7 @@
 
 .slick-current.slick-active {
-    /*animation: carousel-in 4s ease-in-out;*/
-    /*will-change: transform, opacity;*/
+    animation: carousel-in 4s ease-in-out;
+    will-change: transform, opacity;
 }
 
 .item {

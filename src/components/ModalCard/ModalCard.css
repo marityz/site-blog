@@ -1,8 +1,12 @@
 @import url('./__title/modal-card__title.css');
 
-.modal-card{
+.modal-card {
     overflow-y: auto;
     height: max-content;
     position: relative;
+}
+
+.recapcha{
+   margin: 20px auto 0 auto;
 
 }

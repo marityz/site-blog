@@ -17,7 +17,7 @@ const Wrapper = (props) => {
         slidesToShow: 4,
         slidesToScroll: 1,
         className: 'carousel',
-        // autoplay: true,
+        autoplay: true,
         speed: 4000,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -41,7 +41,7 @@ const Wrapper = (props) => {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     initialSlide: 2,
-                    speed: 6000,
+                    speed: 5000,
                     autoplaySpeed: 6000,
                 }
             },

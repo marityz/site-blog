@@ -6,7 +6,8 @@
     border-radius: 5px;
     background-color: #3f4261 ;
     color: #FFFFFF;
-    border: none;
+    border: #3f4261 solid 1px;
+
 
 }
 
@@ -16,6 +17,8 @@
     border: #3f4261 solid 1px;
 }
 
-.painting__button:focus {
+.painting__button:focus,
+.painting__button:hover{
     outline: none;
+    cursor: pointer;
 }

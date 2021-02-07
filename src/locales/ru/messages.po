@@ -18,14 +18,34 @@ msgid "A diverse and rich experience consultation with a wide asset provides a w
 msgstr "Разнообразный и богатый опыт консультаций с широким активом обеспечиваетширокий спектр услуг. Повседневная практика показывает, что выполнение запланированных задачво многом определяет создание модели развития. Товарищи! существующая структура Организация представляет собой интересный эксперимент по проверке направлений прогрессивногоразвития. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм  деятельности предусматривает широкое участие широкого круга (специалистов) в формировании новых предложений. Неследует, однако, забывать, что дальнейшее развитие различных форм деятельности способствуетподготовке и"
 
 #: src/components/Painting/Painting.js:13
-msgid "Add to card"
+#~ msgid "Add to card"
+#~ msgstr "Добавить в корзину"
+
+#: src/components/Painting/Painting.js:49
+msgid "Add to cart"
 msgstr "Добавить в корзину"
+
+#: src/components/FormCard/FormCard.js:57
+msgid "Address"
+msgstr "Адрес"
 
 #: src/components/NavBar/NavBar.js:14
 #~ msgid "Blog"
 #~ msgstr "Блог"
 
-#: src/components/NavBar/NavBar.js:12
+#: src/components/FormCard/FormCard.js:64
+msgid "Comment"
+msgstr "Комментарий"
+
+#: src/components/FormCard/FormCard.js:44
+msgid "Email"
+msgstr "Email"
+
+#: src/components/FormCard/FormCard.js:38
+msgid "Full Name"
+msgstr "ФИО"
+
+#: src/components/NavBar/NavBar.js:24
 msgid "Home"
 msgstr "Главная"
 
@@ -33,13 +53,33 @@ msgstr "Главная"
 msgid "On the other hand, the strengthening and development of the structure ensures participation in the formation of mass participation systems. Ideological considerations of the highest order, as well as the strengthening and development of the structure It plays an important role in the formation of significant financial and administrative conditions."
 msgstr "Сдругой стороны, укрепление и развитие структуры обеспечивает участие вформировании системмассового участия. Идеологические соображения высшего порядка, а такжеукрепление и развитие структурыОна играет важную роль в формировании значительных финансовых и административных"
 
-#: src/components/NavBar/NavBar.js:13
+#: src/components/FormCard/FormCard.js:51
+msgid "Phone"
+msgstr "Телефон"
+
+#: src/components/FormCard/FormCard.js:79
+msgid "Place an order"
+msgstr "Оформить заказ"
+
+#: src/components/Painting/Painting.js:44
+msgid "Remove from cart"
+msgstr "Убрать из корзины"
+
+#: src/components/NavBar/NavBar.js:26
 msgid "Shop"
 msgstr "Магазин"
 
 #: src/components/About/About.js:12
 msgid "Some text"
 msgstr "Какой-то текст"
+
+#: src/components/ModalCard/ModalCard.js:25
+msgid "Thank you for ordering:"
+msgstr "Спасибо за заказ"
+
+#: src/components/ContentCard/ContentCard.js:25
+msgid "There is nothing in the basket"
+msgstr "В корзине ничего нет"
 
 #: src/components/Wrapper/Wrapper.js:62
 msgid "work of artist Tuzikova Irina"
