@@ -18,14 +18,34 @@ msgid "A diverse and rich experience consultation with a wide asset provides a w
 msgstr "A diverse and rich experience consultation with a wide asset provides a wide range. Everyday practice shows that the implementation of planned tasks largely determines the creation of a development model. Comrades! the existing structure The organization is an interesting experiment of checking the directions of progressive development. The significance of these problems is so obvious that the further development of various forms of activity provides a wide range of (specialists) participation in the formation of new proposals. It should not be forgotten, however, that the further development of various forms of activity contributes to the preparation and implementation of forms of development."
 
 #: src/components/Painting/Painting.js:13
-msgid "Add to card"
-msgstr "Add to card"
+#~ msgid "Add to card"
+#~ msgstr "Add to card"
+
+#: src/components/Painting/Painting.js:49
+msgid "Add to cart"
+msgstr "Add to cart"
+
+#: src/components/FormCard/FormCard.js:57
+msgid "Address"
+msgstr "Address"
 
 #: src/components/NavBar/NavBar.js:14
 #~ msgid "Blog"
 #~ msgstr "Blog"
 
-#: src/components/NavBar/NavBar.js:12
+#: src/components/FormCard/FormCard.js:64
+msgid "Comment"
+msgstr "Comment"
+
+#: src/components/FormCard/FormCard.js:44
+msgid "Email"
+msgstr "Email"
+
+#: src/components/FormCard/FormCard.js:38
+msgid "Full Name"
+msgstr "Full Name"
+
+#: src/components/NavBar/NavBar.js:24
 msgid "Home"
 msgstr "Home"
 
@@ -33,13 +53,33 @@ msgstr "Home"
 msgid "On the other hand, the strengthening and development of the structure ensures participation in the formation of mass participation systems. Ideological considerations of the highest order, as well as the strengthening and development of the structure It plays an important role in the formation of significant financial and administrative conditions."
 msgstr "On the other hand, the strengthening and development of the structure ensures participation in the formation of mass participation systems. Ideological considerations of the highest order, as well as the strengthening and development of the structure It plays an important role in the formation of significant financial and administrative conditions."
 
-#: src/components/NavBar/NavBar.js:13
+#: src/components/FormCard/FormCard.js:51
+msgid "Phone"
+msgstr "Phone"
+
+#: src/components/FormCard/FormCard.js:79
+msgid "Place an order"
+msgstr "Place an order"
+
+#: src/components/Painting/Painting.js:44
+msgid "Remove from cart"
+msgstr "Remove from cart"
+
+#: src/components/NavBar/NavBar.js:26
 msgid "Shop"
 msgstr "Shop"
 
 #: src/components/About/About.js:12
 msgid "Some text"
 msgstr "Some text"
+
+#: src/components/ModalCard/ModalCard.js:25
+msgid "Thank you for ordering:"
+msgstr "Thank you for ordering:"
+
+#: src/components/ContentCard/ContentCard.js:25
+msgid "There is nothing in the basket"
+msgstr "There is nothing in the basket"
 
 #: src/components/Wrapper/Wrapper.js:62
 msgid "work of artist Tuzikova Irina"

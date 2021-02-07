@@ -7,6 +7,7 @@ import {
     Redirect,
     BrowserRouter,
     withRouter,
+    HashRouter,
     Switch,
 } from "react-router-dom";
 import Home from "../src/pages/Home/Home"
@@ -57,7 +58,6 @@ function App(props) {
             }
         }
 
-        console.log(actualCart);
         setCart(actualCart);
         localStorage.setItem('cartItems', JSON.stringify(actualCart));
 
@@ -73,7 +73,7 @@ function App(props) {
                     i18n.activate(activeLang);
                 }
             }}>
-                <BrowserRouter>
+                <HashRouter>
                     <Switch>
                         <Route history={history} path='/home' render={(props) =>
                             <Home  {...props} cart={cart} removeFromCart={removeFromCart}/>
@@ -83,7 +83,7 @@ function App(props) {
                         }/>
                         <Redirect from='/' to='/home'/>
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
             </ContextLanguage.Provider>
 
         </I18nProvider>

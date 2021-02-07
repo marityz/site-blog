@@ -1,11 +1,12 @@
 .select {
     border-radius: 14px;
-    margin: 10px;
+    margin: 0px 50px 0 0;
     height: max-content;
     color: #3f4261;
     appearance: none;
     align-self: center;
-    background-color: #cccfd9;
+    background-color: #d4cfd9 ;
+
 }
 
 
@@ -18,19 +19,24 @@
 
 
 .select__language {
-    border-radius: 100px;
+    text-align: center;
+    border-radius: 50%;
     appearance: none;
-    padding:2px;
+    padding: 1px;
     width: max-content;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #3f4261;
     border: #3f4261 solid 2px;
-    background-color: #eaebdd ;
+    background-color: #d4cfd9 ;
+    font-weight: 900;
 
 }
 
 
 @media (max-width: 600px) {
+    .select {
+        margin: 0px 10px 0 0;
+    }
     .select__language {
         font-size: 0.8em;
     }
